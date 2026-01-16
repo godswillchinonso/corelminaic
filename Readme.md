@@ -60,7 +60,7 @@ With Corelminaic, you can focus on writing your application logic instead of dea
 	   		<?php
 		   		declare(strict_types=1);
 
-		   		namespace App\Controllers\Public\Action;
+		   		namespace App\Controller\Public\Action;
 
 		   		use App\Core\Response\WebResponse;
 
