@@ -82,17 +82,18 @@ With Corelminaic, you can focus on writing your application logic instead of dea
    ---
 
    #### public: 
+   
    		The entry point of the application. This folder contains index.php which bootstraps Corelminaic and routes all incoming requests and all of your assets (css, js and image).
-
-
-   	---
+---	
+   	
 
    #### vendor
+   
        Contains all Composer dependencies installed in your project.
-
    ---
 
    ### View
+   
    		All frontend code for your application resides in the views folder. This includes HTML templates, or any files responsible for presenting data to the user.
 
 
