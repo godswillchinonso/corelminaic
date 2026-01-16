@@ -55,18 +55,15 @@ With Corelminaic, you can focus on writing your application logic instead of dea
    		- `Database.php`
 
    		The ***Core*** folder also contain the response body which could be used during web development  or api development. Lets illustrate this on the controller.
-	   		```php
+	   		```
 	   		<?php
-	   		declare(strict_types=1);
-
-	   		namespace App\Controllers\Public\Action;
-
-	   		use App\Core\Response\WebResponse;
-
-	   		final class UserRegistrationController extends WebResponse
-	   		{
-	   		    // Your methods here
-	   		}
+		   		declare(strict_types=1);
+		   		namespace App\Controllers\Public\Action;
+		   		use App\Core\Response\WebResponse;
+		   		final class UserRegistrationController extends WebResponse
+		   		{
+		   		    // Your methods here
+		   		}
 	   		```
 
    - **Service:** Holds reusable services or utilities that can be used throughout the application. Examples include:
