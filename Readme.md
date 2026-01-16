@@ -29,14 +29,10 @@ With Corelminaic, you can focus on writing your application logic instead of dea
    		- POST requests go inside `app/Controllers/Public/Action/`
 
    		Example: You can create `app/Controllers/Public/Page/Auth/` to handle authentication routes, including:
-   			- `RegisterController.php`
-
+   			`RegisterController.php`
    			- `LoginController.php`
-
    			- `ForgotPasswordController.php`
-
    			- `ResetPasswordController.php`
-
    			- `VerifyLoginController.php`
 
    		You are free to create additional subfolders to organize your routes based on your project needs.
@@ -71,19 +67,13 @@ With Corelminaic, you can focus on writing your application logic instead of dea
 
 	   			}
 
-
-
-
 	   		```
    - **Service:** Holds reusable services or utilities that can be used throughout the application. Examples include:
 
    		- Form Validation Services:
    			-  `TeextFormField.php`
-
    			- `EmailFormField.php`
-
    			- `TelFormField.php`
-
    			- `FileFormField.php`  etc.
 
 
