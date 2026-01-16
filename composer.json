@@ -1,0 +1,21 @@
+{
+    "name": "boilerplate/boilerplate",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Widget\\": "module/livechat_module/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sonex Godswill Chinonso",
+            "email": "godswillchinonso5@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
